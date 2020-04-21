@@ -1,7 +1,7 @@
 # 1. MODEL SAMPLING----------------------
 # Y_i ~ N(mu, sigma2)
 
-n <- 50
+n <- 500
 y <- rnorm(n,5,sd=1)
 
 # Prior distributions: mu ~ N(0, 10^2), tau ~ gamma((alpha)shape=0.01, rate=0.01)
