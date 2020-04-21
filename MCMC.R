@@ -1,6 +1,8 @@
 # 1. MODEL SAMPLING----------------------
 # Y_i ~ N(mu, sigma2)
 
+
+
 n <- 50
 y <- rnorm(n,5,sd=1)
 
